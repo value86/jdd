@@ -1,0 +1,41 @@
+// windows プロンプト
+set NODE_CONFIG_DIR=./bin/config/
+
+// windows プロンプト
+set DEBUG=express:* & set NODE_ENV=localdev& node app.js
+
+
+// もう使えない
+// DEBUG=express:* node app.js
+
+
+■共有nodejs起動手順
+//事前準備node.jsインストール
+//新規の場合下記実行
+//mkdir myapp && myapp
+//npm init
+//npm install express
+
+opt\app\cc\nodeのフォルダにソースを配置
+
+$ npm install
+
+localdev.js　の　rdb　＞＞＞＞　"host"        : "192.168.3.21"　に変更
+
+
+□gitbashで起動
+
+$ export NODE_CONFIG_DIR=./bin/config/
+$ export NODE_ENV=localdev
+$ npm start
+
+
+https://localhost:3000/
+
+//debug用
+DEBUG=express:* npm start
+
+//自動更新（npm install -g nodemon）
+nodemon ./bin/www
+
+cd D:/barwork/work/helloWorld/myapp/
